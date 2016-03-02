@@ -4,7 +4,14 @@ html {
   display: inline-block;
 }
 
+body {
+  display: inline-block;
+  margin: 1rem;
+  vertical-align: middle;
+}
+
 img {
+  display: block;
   max-width: 20em;
   width: 100%;
 }
@@ -21,7 +28,7 @@ p {
   max-width: 35em;
 }
 
-.btn {
+.btn-ghost {
   display: inline-block;
   text-decoration: none;
   border: 3px solid;
@@ -31,9 +38,10 @@ p {
   color: #000;
   max-width: 8em;
   padding: .5em;
+  text-align: center;
 }
 
-.btn:hover {
+.btn-ghost:hover {
   background-color: #000;
   color: #fff;
 }
